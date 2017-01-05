@@ -1,0 +1,10 @@
+2.3.3 :001 > docking_station = DockingStation.new
+NameError: uninitialized constant DockingStation
+	from (irb):1
+	from /Users/micawhitby/.rvm/rubies/ruby-2.3.3/bin/irb:11:in `<main>'
+
+type of error - Name error
+file path - /Users/micawhitby/.rvm/rubies/ruby-2.3.3/bin/irb:11:in `<main>'
+line number - 1
+documentation explanation - Raised when a given name is invalid or undefined. http://ruby-doc.org/core-2.2.0/NameError.html
+solve by - define / initialize the class / object of DockingStation
